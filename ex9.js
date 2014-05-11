@@ -1,6 +1,6 @@
 var http = require('http');
 var count = 0;
-var data = [];
+var data = []; //array for 3 pieces of data
 for(var j = 0;j<3;j++){
 	helper(j,process.argv[j+2]);
 }
